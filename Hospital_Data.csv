@@ -1,0 +1,202 @@
+NAME,DOB,PHONE,ORIGIN,SEX,DISEASE,DURATION,DOCNAME,AVAIL,EXPERT,ENVIRON,STAFF,FACILITIES,FOOD,MESSAGE,IRP,sentiment
+Ram,22-03-1948,9831478526,India,Male,Fever,2,Dr. Ramesh,2,3,2,3,2,2,The hospital is clean and hygienic.Doctors are also expert.,1,1
+Sharan,23-10-1952,7044142526,India,Male,Fever,3,Dr. Ramesh,1,2,2,1,1,1,Good,1,1
+Shyam,24-05-1957,9845685669,India,Male,Cough,4,Dr. Narayan,3,3,2,3,3,1,Food should be improved.,1,0
+Sneha,25-12-1961,9872583574,India,Female,Diabetes,10,Dr. Karim,3,2,1,2,3,2,Good hospital and doctors.,1,1
+Kumar,26-07-1966,9632587415,India,Male,Car accident,30,Dr. Agarwal,1,3,1,2,2,1,Bad expereience.Doctor is never on time and hospital staff is rude.,0,0
+Rashmi,24-02-1971,9874563698,India,Female,Cancer,50,Dr. Narayan,2,3,3,3,3,2,Very good,1,1
+Michael,27-09-1975,9874526984,Australia,Male,Accident,15,Dr. Ramesh,3,3,2,2,1,1,Ok hospital,1,1
+Catherine,28-04-1980,7458965812,UK,Female,Corona,9,Dr. Narayan,3,2,1,1,1,1,Unhygienic conditons and food is tasteless.,0,0
+Vaibhav,29-11-1984,7894562589,India,Male,Head Pain,1,Dr. Karim,3,3,3,3,3,3,Awesome experience.,1,1
+Richa,30-06-1989,7896543210,India,Female,Accident,20,Dr. Ramesh,2,2,2,1,3,2,Staff is rude.,0,0
+Shivaram,01-02-1994,9864536723,India,Female,Fever,12,Dr. Narayan,3,3,3,2,3,3,Clean and hygienic environment,1,1
+Kiran,02-09-1998,1183250236,India,Female,Corona,22,Dr. Agarwal,3,3,2,3,3,2,Hospitality is good,1,1
+Shivam,03-04-2003,1800523749,India,Male,fever,11,Dr. Karim,1,1,3,3,3,2,Clean and hygienic environment,1,1
+Michael,04-11-2007,15768517262,Australia,Male,Cough,7,Dr. Harold,1,1,2,2,3,1,Awesome experience.,1,1
+Emily,05-06-2012,17736510775,Canada,Female,Diabetes,24,Dr. Adrian,3,2,1,1,3,2,Very good,1,1
+Sidshesh,06-01-2017,19704504288,UK,Male,Flu,14,Dr. Harold,1,3,3,3,2,3,Hospital staffs are so helpful,1,1
+Jignesh,07-08-2001,21672497801,India,Male,Cancer,24,Dr. Raymond,3,1,3,1,3,3,The staffs are so friendly and helpful,1,1
+Ramona,08-03-2009,23640491314,Australia,Female,Accident,3,Dr. Ramesh,3,3,2,3,3,3,Staff is helpful,1,1
+Mamie,09-10-1930,25608484827,Canada,Female,Flu,6,Dr. Sandra,3,3,3,3,3,2,The hospital is Clean and gives great essence to feel good,1,1
+Carolyn,10-05-1935,27576478340,Philipines,Female,Head Pain,30,Dr. Karim,2,2,3,3,3,3,Doctors and staff are so helpful,1,1
+Delbert,11-12-1939,29544471853,USA,Male,Accident,8,Dr. Agarwal,3,3,1,3,3,3,The environment was so unpleasant,0,0
+Betsy,12-07-1944,31512465366,Newzeland,Female,Fever,22,Dr. Narayan,3,3,2,1,1,2,Staffs were so rude,0,0
+Jared,13-02-1949,33480458879,Australia,Male,Fever,35,Dr. Ramesh,3,3,1,2,1,2,The facilities provided wasnt so good and staff was also so rude,0,0
+Dexter,16-11-1962,39384439418,Cananda,Male,Cancer,6,Dr. Karim,2,3,2,2,1,2,Doctors are so qualified,1,1
+Katrina,17-06-1967,41352432931,Australia,Female,Car accident,38,Dr. Agarwal,3,1,3,1,3,3,Staff is rude.,0,0
+Rosemarie,18-01-1972,43320426444,Australia,Female,Cancer,12,Dr. Narayan,2,2,3,1,2,1,Staff was so rude and the food provided,0,0
+May,19-08-1976,45288419957,UK,Female,Accident,12,Dr. Ramesh,2,3,2,2,1,2,Doctors are well experienced,1,1
+Alberto,20-03-1981,47256413470,USA,Male,Corona,35,Dr. Narayan,3,3,1,3,1,1,Staff is helpful but the environment is not so good,0,0
+Ralph,21-10-1985,49224406983,Newzealand,Male,Head Pain,33,Dr. Karim,3,3,3,3,2,3,Staff is helpful,1,1
+Raj,25-03-1987,9874563692,India,Male,Cough,2,Dr. Ramesh,3,3,3,3,3,3,Good Treatment,1,1
+Mahesh,20-04-1970,9874562581,India,Male,Corona,14,Dr. Karim,3,3,2,2,1,1,"Facilities were not that good,Doctor was nice.",0,0
+Rama,14-09-1955,9748485621,India,Female,Corona,21,Dr. Karim,3,3,3,3,3,1,Professional Treatment,1,1
+Pooja,17-12-1984,9871472256,India,Female,Leg Pain,3,Dr. Agarwal,3,2,3,2,3,3,Overall Good experience.,1,1
+Paul,10-10-1990,9632587411,India,Male,Low Pressure,4,Dr. Narayan,2,2,1,1,1,1,Worst hospital,0,0
+Baba,10-01-1910,9874785852,India,Male,Cholera,10,Dr. Karim,3,3,1,1,3,2,Staff was so rude and the environment was unhygienic,0,0
+Shaurya,18-06-1996,7898584789,India,Male,Hair Treatment,4,Dr. Adrian,3,3,2,2,2,2,Medium experience.,0,0
+Pramod,25-05-1996,7894561235,India,Male,Ligament Tear,3,Dr. Ramesh,3,3,3,3,3,3,Perfect,1,1
+Rosy,12-12-1982,9632586987,USA,Female,Pregnancy,2,Dr. Sandra,3,3,3,3,3,3,Awesome experience.,1,1
+Vishal,14-07-1985,8521479635,India,Male,Accident,10,Dr. Narayan,2,3,2,2,2,2,Ok hospital,1,0
+Almindo,13-03-1985,4561238521,Newzealand,Female,Pregnancy,3,Dr. Adrian,2,2,2,2,1,1,Unhygienic conditons and food is tasteless.,0,0
+Rahul,30-08-1982,9786453120,India,Male,Typhoid,11,Dr. Karim,3,3,3,3,3,3,Very good treatment,1,1
+Roy,25-08-1975,9632587415,USA,Male,Accident,15,Dr. Sandra,2,2,3,3,3,3,Nice Treatment,1,1
+Bob,14-04-1974,9787584785,USA,Male,Accident,14,Dr. Sandra,3,3,3,3,1,1,Awesome food.,1,1
+Marlin,25-08-1988,7412589636,Newzealand,Female,Hair Treatment,10,Dr. Adrian,3,3,3,3,3,3,Professional Treatment,1,1
+Jose,10-02-1950,1478523698,USA,Male,Cancer,50,Dr. Sandra,3,3,3,3,3,2,Best hospital,1,1
+Anantha,10-09-1960,8523697456,India,Male,Accident,3,Dr. Narayan,2,3,1,1,1,1,Pathetic and rude hospital,0,0
+Shilpa,12-08-1970,9638527414,India,Female,Pregnancy,3,Dr. Karim,3,3,3,3,3,1,Good hospital but food should be improved,0,0
+Sravana,14-12-1940,9258258478,India,Male,Cholera,20,Dr. Ramesh,3,3,3,3,3,1,"Staffs are very helpful,food should be improved.",0,0
+Natrajan,17-09-1985,7412589633,India,Male,Corona,14,Dr. Narayan,2,2,2,2,1,1,Not so good hospital.,0,0
+Priya,01-01-1986,8523694174,India,Female,Corona,20,Dr. Narayan,3,3,3,3,3,3,Perfect,0,1
+Raveena,02-03-1985,9632587415,USA,Female,Pregnancy,5,Dr. Sandra,3,3,3,3,3,3,Super,1,1
+Wasim,05-06-1985,7485961452,India,Male,Corona,14,Dr. Karim,2,2,1,1,1,1,Bad,0,0
+Imran,02-05-1950,9856231478,India,Male,Corona,14,Dr. Narayan,3,3,3,2,3,3,Good hospital,0,1
+Mohammed,05-01-1974,9632512362,India,Male,Corona,20,Dr. Karim,3,3,1,1,1,1,Worst hospital,0,0
+Iqbal,04-06-1981,9632587413,India,Male,Corona,10,Dr. Ramesh,3,3,3,3,3,3,Good Treatment,0,1
+Begum,08-08-1980,9748586323,India,Female,Corona,16,Dr. Karim,3,2,2,2,3,1,Medium experience.,0,0
+Laila,05-07-1984,7412589632,USA,Female,Tumour,10,Dr. Sandra,3,2,3,3,3,1,Awesome treatment,1,1
+Oppam,04-05-1910,9858745862,UK,Male,Heart Pain,30,Dr. Adrian,3,3,3,3,3,3,Super,1,1
+Maya,19-08-1976,45288419957,UK,Female,Accident,12,Dr. Ramesh,2,3,2,2,3,2,Doctors are well experienced,1,1
+Albert,20-03-1981,47256413470,USA,Male,Corona,35,Dr. Narayan,3,3,1,3,1,1,Staff is helpful but the environment is not so good,0,1
+Ralph,21-10-1985,49224406983,Newzealand,Male,Head Pain,33,Dr. Karim,3,3,3,3,2,3,Staff is helpful,1,1
+Raja,25-03-1987,9874563692,India,Male,Cough,2,Dr. Ramesh,3,3,3,3,3,3,Good Treatment,1,1
+Mahesha,20-04-1970,9874562581,India,Male,Corona,14,Dr. Karim,3,3,2,2,1,1,"Facilities were not that good,Doctor was nice.",0,0
+Raman,14-09-1955,9748485621,India,Female,Corona,21,Dr. Karim,3,3,3,3,3,1,Professional Treatment,1,1
+Poojapam,17-12-1984,9871472256,India,Female,Leg Pain,3,Dr. Agarwal,3,2,3,2,3,3,Overall Good experience.,1,1
+Paulam,10-10-1990,9632587411,India,Male,Low Pressure,4,Dr. Narayan,2,2,1,1,1,1,Worst hospital,0,0
+Babama,10-01-1898,9874785852,India,Male,Cholera,10,Dr. Karim,3,3,1,1,3,2,Staff was so rude and the environment was unhygienic,0,0
+Shurvir,18-06-1996,7898584789,India,Male,Hair Treatment,4,Dr. Adrian,3,3,2,2,2,2,Medium experience.,0,0
+Vibhishan,25-05-1996,7894561235,India,Male,Ligament Tear,3,Dr. Ramesh,3,3,3,3,3,3,Perfect,1,1
+Rashmi,24-02-1971,9874563698,India,Female,Cancer,50,Dr. Narayan,2,3,3,3,3,2,Very good,1,1
+Michael,27-09-1975,9874526984,Australia,Male,Accident,15,Dr. Ramesh,3,3,2,2,1,1,Ok hospital,1,0
+Catherine,28-04-1980,7458965812,UK,Female,Corona,9,Dr. Narayan,3,2,1,1,1,1,Unhygienic conditons and food is tasteless.,0,0
+Vibhor,29-11-1984,7894562589,India,Male,Head Pain,1,Dr. Karim,3,3,3,3,3,3,Awesome experience.,1,1
+Richa,30-06-1989,7896543210,India,Female,Accident,20,Dr. Ramesh,2,2,2,1,3,2,Staff is rude.,0,0
+Shivaram,01-02-1994,9864536723,India,Female,Fever,12,Dr. Narayan,3,3,3,2,3,3,Clean and hygienic environment,1,1
+Kiara,02-09-1998,11832530236,India,Female,Corona,22,Dr. Agarwal,3,3,2,3,3,2,Hospitality is good,1,1
+Raman,14-09-1955,9748485621,India,Female,Corona,21,Dr. Karim,3,3,3,3,3,1,Professional Treatment,1,1
+Anzal ,01-07-1992,9087345198,India,Male,Tuberculosis,20,Dr. Sharif,2,3,2,2,3,1,Thank you for giving me my life back,0,1
+Jordan,04-05-1975,6453098281,South Africa,Male,Accident,10,Dr. Wilson ,1,2,3,2,1,2,"First and foremost, thank you for making me feel so much better.",0,1
+Sufiyaan,13-03-1998,8973451762,India,Male,Fever,12,Dr. Amit,2,3,2,3,2,2,Overall Good experience.,1,1
+Nikita,15-09-1986,7908956431,India ,Female,Tuberculosis,17,Dr. Sharif ,3,1,1,2,2,3,Thank you very much for your excellent care and exceptional professional abilities!,1,1
+Michael,17-03-1983,4876512398,Austria,Male,Corona,14,Dr. Ryan,2,3,2,3,1,3,This illness really shook my life. Someone knew who I needed and you were there,0,1
+Shanaya,28-06-1999,9237861257,India,Female,Stroke,23,Dr. Patra,3,1,2,3,3,2,Remarkable physician,0,1
+Jenny,01-08-1975,6217845671,Ireland,Female,Influenza,22,Dr. Smith,1,3,3,2,3,1,Food was not good,0,0
+Basit,09-02-1996,8097894583,India,Male,Hair Treatment,5,Dr. Roshan,2,2,1,3,1,3,Never had a problem with the practice,0,1
+Sanjana,07-11-1967,7163485672,India,Female,Head Pain,2,Dr. Amit,3,1,1,2,1,3,Experience not so good,1,0
+Ganesh,08-12-1998,9875677894,India,Male,Cholera,13,Dr. Smitha,3,3,3,3,3,3,Awesome experience.,1,1
+Nitish,25-07-1966,9627374882,India,Male,Cough,3,Dr. Karim,2,2,2,3,1,1,Service is top notch,1,1
+Sudhanshu,17-08-1947,8988973661,India ,Male,Leg Pain,2,Dr. Satish,2,1,3,3,1,3,Everyone is pleasant and helpful.,0,1
+Abhas,08-09-1978,9123478912,India,Male,Ligament Tear,4,Dr. Roshan,3,3,1,3,3,3,Never had a problem. Receptionists polite and helpful.,1,1
+Kshama,01-10-1998,8637312336,India,Female,Stroke,17,Dr. Narayan,3,2,3,2,3,2,Excellent care.,0,1
+Ridhima,19-11-1968,9838371839,India ,Female,Tuberculosis,19,Dr. Akshat,2,1,1,3,2,3,Staff not keeping patients well informed.,0,0
+Ankit,18-09-1978,7406058677,India,Male,Accident,16,Dr. Ramesh,3,1,1,1,1,2,Long waits before or between appointments,1,0
+Andrew,23-02-1987,3287381381,South Africa,Male,Cancer,43,Dr. Duminy,2,1,2,3,1,2,All round decent practice,1,1
+Paul,09-12-1966,6719237261,Chile,Male,Fever,2,Dr. Yardy,3,2,3,2,2,3,First class,0,1
+Harshita,24-09-1988,9736739192,India,Female,Cholera,16,Dr. Manhas,2,3,2,1,1,1,Staff had a negative attitude,1,0
+Rohan,12-07-1967,8272618891,India,Male,Ligament Tear,1,Dr. Agarwal,1,2,1,1,2,1,Not given satisfactory healthcare.,1,0
+Sagar,18-01-1986,9182773717,India,Male,Asthma,19,Dr. Batra,2,2,3,2,2,3,Very happy with all the services they provide. Thank you very much.,1,1
+Raksha,03-06-1959,8729177712,India,Female,Stroke,21,Dr. Karim,1,2,2,1,2,1,Not treated with dignity and respect,0,0
+Saloni,18-09-1961,7826166361,India,Female,Asthma,22,Dr. Batra,2,3,2,2,2,1,Professional Treatment,1,1
+Aashray,24-11-1993,7772617291,India,Male,Leg Pain,2,Dr. Satish,2,1,1,1,3,1,Worst hospital,0,0
+Marcus,20-08-1970,2123314889,Mexico,Male,Corona,29,Dr. Riaz,1,3,1,2,3,1,Good Treatment,0,1
+Alexa,10-03-1932,8382991138,USA,Female,Tuberculosis,21,Dr. Alex,1,2,2,2,2,1,Unhygienic conditons and food is tasteless.,0,0
+Spandana,29-12-1982,7098907372,India,Female,Head Pain,3,Dr. Rashmi,2,1,3,2,2,1,Overall Good experience.,1,1
+Riyaz,04-10-1993,8393777281,India,Male,Tuberculosis,21,Dr. Sharif,3,2,3,2,3,2,Nice practice in general.,0,1
+Navya,06-04-1978,9008512067,India ,Female,Cancer,50,Dr. Narayan,1,2,1,1,2,3,Seen four different doctors for the same issue.,0,0
+Shehnaz,01-01-1998,5682828171,UAE,Female,Stroke,2,Dr. Karim,2,3,2,3,2,3,Excellent service,1,1
+Hafeez,08-11-1959,3526271993,Kuwait,Male,Corona,23,Dr. Ryan,2,2,2,2,2,2,I would like medication tobe given for longer periods.,1,0
+Paramjeet,17-03-1987,8927273771,Canada,Male,Cholera,14,Dr. Manhas,3,3,3,3,3,3,I love this doctors.,1,1
+Royston,12-04-1986,9078612361,India,Male,Asthma,19,Dr. Rithwik,2,3,1,3,2,2,Excellent service provided by caring people.,0,1
+Mehakpreet ,19-07-1935,9827747212,Canada,Male,Accident,17,Dr. Ramesh,3,2,3,1,2,3,Quite good.,1,1
+Asif,18-05-1990,6358186361,Kuwait,Male,Ligament Tear,2,Dr. Riaz,2,1,1,2,3,1,Very happy with service.,1,1
+Akanksha,11-11-1959,9658971251,India,Female,Tumour,37,Dr. Roshan,1,2,2,1,2,1,Need more doctors.,0,0
+Shahida,17-05-1993,5670986781,UAE,Female,Fever,5,Dr. Amit,2,3,3,1,2,2,Professional Treatment,0,1
+Mohit,01-09-1991,8972763717,India,Male,Leg Pain,3,Dr. Satish,3,1,1,1,2,1,Not Treated with dignity and respect,1,0
+Rakshitha,03-06-1958,8729177756,India,Female,Stroke,21,Dr. Karishma,2,1,2,1,2,3,Staff had a negative attitude,0,0
+Pauli,09-02-1966,6719237361,Chile,Female,Fever,2,Dr. Yardy,3,2,2,1,2,3,First class,0,1
+Shehzad,01-03-1998,5683528171,UAE,Female,Stroke,4,Dr. Riaz,2,1,3,3,1,2,Excellent service,1,1
+Roshan,12-07-1961,8272618241,India,Male,Ligament Tear,2,Dr. Agarwal,1,1,1,2,1,1,Not given satisfactory healthcare.,1,0
+Joshua,04-01-1975,6453098223,South Africa,Male,Accident,10,Dr. Wilson ,2,2,2,3,3,2,"First and foremost, thank you for making me feel so much better.",0,1
+Navyashree,03-04-1978,9008534067,India ,Female,Cancer,39,Dr. Narayan,2,1,2,1,1,3,Seen four different doctors for the same issue.,0,0
+Nitya,25-07-1966,9627374536,India,Female,Cough,3,Dr. Karim,3,2,3,3,1,1,Service is top notch,1,1
+Parampreet,13-03-1987,8923773771,Canada,Male,Cholera,14,Dr. Manhas,2,3,3,3,3,2,I love this doctors.,1,1
+Richan,30-06-1967,7896543234,India,Female,Accident,20,Dr. Ramesh,1,2,1,1,1,2,Staff is rude.,0,0
+Abbas,08-09-1978,9873478912,India,Male,Ligament Tear,4,Dr. Roshan,2,3,2,1,1,3,Receptionists polite and helpful.,1,1
+Ramesh,14-09-1946,9748485466,India,Male,Corona,21,Dr. Karim,3,2,3,2,2,2,Professional Treatment,1,1
+Babbu,10-01-1928,9874785834,India,Male,Cholera,10,Dr. Karim,3,1,2,1,3,2,Staff was so rude and the environment was unhygienic,0,0
+David,08-01-1979,3526276271,Kuwait,Male,Corona,23,Dr. Ryan,2,3,2,2,3,2,I would like medication tobe given for longer periods.,1,0
+Harpreet,24-09-1988,9736569192,India,Female,Cholera,16,Dr. Manhas,2,3,2,1,1,1,Staff had a negative attitude,1,0
+Ismail,04-06-1971,9632587372,India,Male,Leg Pain,1,Dr. Ramesh,2,3,2,3,3,2,Good Treatment,0,1
+Vishali,14-04-1985,8562479635,India,Female,Accident,10,Dr. Narayan,2,2,3,2,3,2,Ok hospital,1,1
+Almi,11-03-1985,4560238521,Newzealand,Female,Pregnancy,3,Dr. Adrian,3,1,2,1,3,1,Unhygienic conditons and food is tasteless.,0,0
+Rahil,        30-03-1981,9786453111,India,Male,Typhoid,11,Dr. Karim,3,2,3,1,3,3,Very good treatment,1,1
+Royce,25-08-1971,9632587417,USA,Male,Accident,15,Dr. Sandra,3,2,3,3,3,2,Nice Treatment,1,1
+Bobb,14-01-1974,9717584785,USA,Male,Accident,11,Dr. Sandra,2,3,3,2,1,2,Awesome food.,1,1
+Marlini,21-08-1988,7411589636,Newzealand,Female,Hair Treatment,10,Dr. Adrian,2,3,1,3,3,3,Professional Treatment,0,1
+Justin,10-02-1955,1478123698,USA,Male,Cancer,50,Dr. Sandrew,2,3,2,3,2,2,Best hospital,1,1
+Ananthu,10-09-1961,8523127456,India,Male,Accident,3,Dr. Narayan,2,3,2,1,2,1,Pathetic and rude hospital,0,0
+Shilpi,12-02-1971,9638237414,India,Female,Pregnancy,10,Dr. Karim,3,2,3,2,3,2,Good hospital but food should be improved,0,1
+Sravani,14-12-1940,9278258478,India,Female,Typhoid,20,Dr. Ramesh,3,1,3,1,3,1,"Staffs are very helpful,food should be improved.",0,1
+Natraj,17-01-1976,7412289633,India,Male,Corona,15,Dr. Narayan,2,1,2,1,1,2,Not so good hospital.,0,0
+Priyadarshini,17-09-1997,8521994174,India,Female,Pregnancy,20,Dr. Manhas,3,2,3,2,1,2,Need more doctors.,0,0
+Kiaz,02-01-1998,1142530236,India,Female,Ligament Tear,1,Dr. Agarwal,3,2,3,3,2,2,Hospitality is good,1,1
+Ramani,11-09-1955,9741485621,India,Female,Corona,21,Dr. Karim,3,2,3,3,3,1,Professional Treatment,1,1
+Amal,02-07-1992,9087345191,India,Male,Tuberculosis,20,Dr. Sharif,2,1,3,2,3,1,Thank you for giving me my life back,0,1
+Jorz,06-05-1975,6453098219,South Africa,Male,Accident,10,Dr. Wilson ,2,2,1,3,1,2,"First and foremost, thank you for making me feel so much better.",0,1
+Sufi,13-01-1998,8973451156,India,Male,Fever,10,Dr. Amit,2,1,3,3,1,3,Overall Good experience.,1,1
+Nikki,15-09-1998,7908951431,India ,Female,Tuberculosis,15,Dr. Sharif ,3,2,1,2,2,3,Thank you very much for your excellent care and exceptional professional abilities!,1,1
+Milan,17-12-1983,4876512312,Austria,Male,Corona,11,Dr. Ryan,1,3,1,3,3,3,This illness really shook my life. Someone knew who I needed and you were there,0,1
+Shan,28-06-1991,9987861257,India,Male,Stroke,21,Dr. Patra,2,2,1,3,3,2,Remarkable physician,0,1
+Jessy,03-08-1975,6211345671,Ireland,Female,Influenza,21,Dr. Smith,1,2,1,3,3,1,Food was not good,0,0
+Bhanu,11-02-1996,8117894583,India,Male,Hair Treatment,4,Dr. Roshan,2,1,2,3,2,3,Never had a problem with the practice,0,1
+Sanjeet,07-10-1967,7163195672,India,Male,Head Pain,1,Dr. Amit,3,2,1,1,1,2,Experience not so good,1,0
+Ganjeet,08-02-1998,9885677894,India,Male,Cholera,11,Dr. Smitha,3,2,3,3,3,3,Awesome experience.,1,1
+Nitin,21-07-1966,9611374882,India,Male,Cough,2,Dr. Karim,2,3,2,2,1,1,Service is top notch,1,1
+Sudhamani,17-02-1947,8189713661,India ,Female,Typhoid,12,Dr. Satish,2,2,3,2,1,3,Everyone is pleasant and helpful.,0,1
+Rakesh,20-03-1948,9671478526,India,Male,Stroke,19,Dr. Ramesh,2,2,3,3,2,2,The hospital is clean and hygienic.Doctors are also expert.,1,1
+Sharath,23-10-1951,7044122526,India,Male,Fever,2,Dr. Manhas,1,1,3,2,1,1,Good,1,1
+Shailesh,21-05-1957,9845611669,India,Male,Cough,3,Dr. Narayan,3,2,2,3,3,1,Food should be improved.,1,0
+Kunal,26-07-1961,9632597415,India,Male,Accident,17,Dr. Agarwal,1,2,3,1,2,1,Bad expereience.Doctor is never on time and hospital staff is rude.,0,0
+Rashmika,21-02-1971,8974563698,India,Female,Cancer,50,Dr. Batra,2,2,3,3,3,2,Very good,1,1
+Michan,21-09-1975,9874526984,Australia,Male,Diabetes,18,Dr. Ramesh,3,3,2,2,2,1,Ok hospital,1,1
+Kerry,17-04-1980,7411965812,UK,Female,Flu,16,Dr. Batra,3,2,2,1,1,1,Unhygienic conditons and food is tasteless.,0,0
+Vaibhavi,19-11-1984,7885562589,India,Female,Head Pain,1,Dr. Smitha,3,2,3,2,3,2,Awesome experience.,1,1
+Richi,30-06-1919,7896543218,India,Female,Cholera,18,Dr. Ramesh,2,3,2,2,3,2,Staff is rude.,0,0
+Shivam,01-03-1994,9864539823,India,Male,Diabetes,18,Dr. Narayan,3,2,3,2,3,3,Clean and hygienic environment,1,1
+Kiran,02-09-1991,9183250236,India,Male,Corona,21,Dr. Agarwal,3,2,2,3,3,2,Hospitality is good,1,1
+Shivalik,01-04-2003,1800513749,India,Male,Typhoid,15,Dr. Batra,1,2,3,3,3,2,Clean and hygienic environment,1,1
+Mike,04-10-2007,5768517262,Australia,Male,Cough,8,Dr. Harold,1,1,2,2,3,1,Awesome experience.,1,1
+Eily,05-11-2012,1773710775,Canada,Female,Diabetes,21,Dr. Adrian,3,2,2,1,3,2,Very good,0,1
+Siddarth,06-01-2013,1970804288,UK,Male,Flu,12,Dr. Harold,1,3,2,3,2,3,Hospital staffs are so helpful,1,1
+Jigna,07-08-2014,2167241801,India,Female,Cancer,21,Dr. Raymond,3,2,3,1,3,3,The staffs are so friendly and helpful,0,1
+Ramoni,08-01-2006,2240489114,Australia,Female,Accident,2,Dr. Ramesh,3,2,2,3,3,3,Staff is helpful,1,1
+Marin,09-10-1910,2598484827,Canada,Female,Stroke,18,Dr. Sandra,3,3,2,3,3,1,The hospital is Clean and gives great essence to feel good,1,1
+Cary,10-05-1998,2776478340,Philipines,Female,Corona,26,Dr. Manhas,3,2,2,3,3,1,Doctors and staff are so helpful,1,1
+Doron,11-11-1939,2954271853,USA,Male,Accident,9,Dr. Sandra,3,2,1,2,3,3,The environment was so unpleasant,0,0
+Noaz,12-07-1984,3153465366,Newzeland,Male,Fever,11,Dr. Narayan,3,2,2,2,1,2,Staffs were so rude,0,0
+Jeff,13-02-1940,3348045882,Australia,Male,Fever,12,Dr. Ramesh,3,2,3,2,1,2,The facilities provided wasnt so good and staff was also so rude,0,0
+Dexty,16-11-1972,3938443941,Canada,Female,Cancer,29,Dr. Harold,1,2,3,3,2,1,Doctors are so qualified,1,1
+Mohith,01-01-1991,8972763711,India,Male,Diabetes,10,Dr. Satish,3,2,1,1,2,1,Not Treated with dignity and respect,1,0
+Rakshit,03-06-1951,8729277756,India,Male,Stroke,21,Dr. Karishma,1,2,2,1,2,3,Staff had a negative attitude,0,0
+Parul,09-09-1966,6719237360,Chile,Female,Fever,3,Dr. Yardy,3,2,2,2,2,3,First class,0,1
+Shehzadi,01-03-1918,5683528172,UAE,Female,Flu,8,Dr. Riaz,2,2,3,3,2,2,Excellent service,1,1
+Roshani,12-07-1921,8212618241,India,Female,Ligament Tear,3,Dr. Agarwal,2,1,1,2,1,1,Not given satisfactory healthcare.,1,0
+Josh,04-01-1925,6493098223,South Africa,Male,Accident,10,Dr. Roshan,2,1,2,3,3,2,"First and foremost, thank you for making me feel so much better.",0,1
+Nalini,03-10-1978,9001534067,India ,Female,Typhoid,21,Dr. Ramesh,2,2,2,1,1,1,Seen four different doctors for the same issue.,0,1
+Jessica,09-08-1975,6217815671,Ireland,Female,Influenza,21,Dr. Smith,1,2,2,1,1,1,Food was not good,0,0
+Bastail,09-02-1986,8197894583,India,Male,Diabetes,19,Dr. Roshan,2,2,2,1,1,3,Staff had a negative attitude,0,0
+Sangeet,07-01-1967,7161485672,India,Female,Stroke,9,Dr. Amit,3,2,1,2,1,3,Experience not so good,1,0
+Gajanan,21-12-1998,9875117894,India,Male,Asthma,11,Dr. Smitha,3,3,3,2,3,3,Awesome experience.,1,1
+Niranjan,25-07-1916,9627374182,India,Male,Cough,5,Dr. Karim,2,3,3,3,2,1,Service is top notch,1,1
+Sudhan,17-08-1971,8988653661,India ,Male,Leg Pain,3,Dr. Satish,2,2,3,3,1,3,Everyone is pleasant and helpful.,0,1
+Abhishek,08-10-1978,9123878912,India,Male,Influenza,10,Dr. Roshan,1,2,1,1,1,3,Never had a problem. Receptionists polite and helpful.,1,1
+Ketaki,02-01-1998,8637412336,India,Female,Diabetes,18,Dr. Narayan,3,2,3,2,3,2,Excellent care.,0,1
+Ridham,11-11-1968,9838171839,India ,Female,Tuberculosis,17,Dr. Akshat,1,2,1,3,2,3,Staff not keeping patients well informed.,0,0
+Ankita,18-10-1978,7406068677,India,Female,Flu,10,Dr. Ramesh,1,2,1,1,1,2,Long waits before or between appointments,1,0
+Paul,23-02-1997,3287382381,South Africa,Male,Cancer,43,Dr. Duminy,2,1,1,3,1,2,All round decent practice,1,1
+Andy,09-11-1966,6719217261,Chile,Male,Fever,2,Dr. Yardy,3,2,3,2,3,3,First class,0,1
+Harshal,24-02-1988,9731139192,India,Male,Cholera,12,Dr. Manhas,2,1,2,2,2,1,Staff had a negative attitude,1,0
+Rohith,12-06-1967,8279618891,India,Male,Ligament Tear,1,Dr. Agarwal,1,2,1,1,2,1,Not given satisfactory healthcare.,1,0
+Sagarika,18-11-1986,9195773717,India,Female,Asthma,12,Dr. Batra,2,3,3,2,1,3,Very happy with all the services they provide. Thank you very much.,1,1

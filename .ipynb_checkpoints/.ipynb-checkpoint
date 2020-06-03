@@ -1,0 +1,237 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "%matplotlib inline  \n",
+    "import nltk\n",
+    "from nltk import word_tokenize, sent_tokenize\n",
+    "from nltk.corpus import stopwords\n",
+    "from nltk.stem import LancasterStemmer, WordNetLemmatizer, PorterStemmer\n",
+    "from wordcloud import WordCloud, STOPWORDS\n",
+    "from textblob import TextBlob"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "hospital=pd.read_csv(\"Sheet1.csv\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(77, 16)"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "hospital.shape\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Index(['NAME', 'DOB', 'PHONE', 'ORIGIN', 'SEX', 'DISEASE', 'DURATION',\n",
+       "       'DOCNAME', 'AVAIL', 'EXPERT', 'ENVIRON', 'STAFF', 'FACILITIES', 'FOOD',\n",
+       "       'MESSAGE', 'IRP'],\n",
+       "      dtype='object')"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "hospital.columns"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "columns=['NAME','DOB','PHONE']\n",
+    "df = pd.DataFrame(hospital.drop(columns,axis=1,inplace=False))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Converting to string\n",
+    "df['MESSAGE']=df['MESSAGE'].astype(str)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Food should be improved.'"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df['MESSAGE'][2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 105,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#To lowercase the message\n",
+    "df['MESSAGE'] = df['MESSAGE'].apply(lambda x: \" \".join(x.lower() for x in x.split()))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'food should be improved.'"
+      ]
+     },
+     "execution_count": 106,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df['MESSAGE'][2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Removing special characters\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'bad expereience.doctor never time hospital staff rude.'"
+      ]
+     },
+     "execution_count": 110,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "stop = stopwords.words('english')\n",
+    "df['MESSAGE'] = df['MESSAGE'].apply(lambda x: \" \".join(x for x in x.split() if x not in stop))\n",
+    "df['MESSAGE'][4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer\n",
+    "import re\n",
+    "import string\n",
+    "analyzer = SentimentIntensityAnalyzer()\n",
+    "def sentiment_analyzer_scores(text):\n",
+    "    score = analyzer.polarity_scores(text)\n",
+    "    print(text)\n",
+    "    print(score)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bad expereience.doctor never time hospital staff rude.\n",
+      "{'neg': 0.565, 'neu': 0.435, 'pos': 0.0, 'compound': -0.7579}\n"
+     ]
+    }
+   ],
+   "source": [
+    "text_pos = df['MESSAGE'][4]\n",
+    "sentiment_analyzer_scores(text_pos)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('homeBG.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+}
+#navbar
+{
+	background-color: #0E405A;
+	opacity:1;
+	/*box-shadow: 6px 3px 5px #000000;*/
+}
+a {
+	color: #00B7FF;
+}
+.submit-btn {
+	  background:#0E405A;
+	  color: #fff;
+	  
+	  padding: 10px 20px;
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+	  border-radius: 5px;
+	  box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.4);
+	  cursor: pointer;
+	  transition: all ease-in-out 300ms;
+	
+}
+
+.submit-btn:hover{
+	color:#fff;
+	background: #E6B43D;
+    
+}
+
+.post {
+	padding: 10px;
+}
+
+.odd {
+	background-color: #f2f9ff;
+	
+}
+.even {
+	background-color: #eceff3;
+}
+
+@media (max-width: 500px)  and (min-width :0px) {
+	#navbar h2
+	{
+		font-size:30px;
+	}
+}
